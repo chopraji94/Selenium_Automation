@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class HandleDropBox {
+public class HandleDropBox throws InterruptedException {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +18,7 @@ public class HandleDropBox {
 		
 		/*driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("cpranav16@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("password");
+		Thread.sleep(2000);
 		driver.findElement(By.linkText("Log In")).click();*/
 		
 		//For Select class
